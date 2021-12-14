@@ -7,7 +7,7 @@ class Cards:
 
 	def create_deck(self):
 		suits = "SHCD"
-		cards = list(range(1,11)) + ["J","Q","K"]
+		cards = list(range(2,15))# + ["J","Q","K"]
 		for i in suits:
 			for s in cards:
 				self.deck.append([s,i])
